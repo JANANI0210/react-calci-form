@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import CartoonComponent from "./Components/Routes/CartoonComponent/CartoonComponent";
+import PortfolioComponent from "./Components/Routes/PortfolioComponent/PortfolioComponent";
+import CalculatorComponent from "./Components/Routes/CalculatorComponent/CalculatorComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <ul className="nav">
+          <li>
+            <Link to="/">Portfolio</Link>
+          </li>
+          <li>
+            <Link to="/calculator">Calculator</Link>
+          </li>
+          <li>
+            <Link to="/cartoon">Cartoon</Link>
+          </li>
+        </ul>
+        <Routes>
+          <Route exact path="/" element={<PortfolioComponent />}></Route>
+          <Route
+            exact
+            path="/calculator"
+            element={<CalculatorComponent />}
+          ></Route>
+          <Route exact path="/cartoon" element={<CartoonComponent />}></Route>
+          <Route></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 }
-
 export default App;

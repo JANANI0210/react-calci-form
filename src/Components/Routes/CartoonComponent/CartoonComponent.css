@@ -1,0 +1,9 @@
+.pictures {
+  display: inline-grid;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.text {
+  font-size: medium;
+}
