@@ -13,7 +13,7 @@ function PortfolioComponent() {
         immense growth opportunities and to implement my advanced knowledge and
         skills
       </section>
-
+      2
       <div class="edu">
         <h3 class="title">Education</h3>
         <div class="edu_item">
@@ -32,7 +32,6 @@ function PortfolioComponent() {
           <p class="item_subtitle">Sri R.M.Jain Vidhyashram</p>
         </div>
       </div>
-
       <div class="interest">
         <h3 class="title">Interest</h3>
         <div class="interest_items">
