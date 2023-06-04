@@ -236,3 +236,11 @@ CalculatorComponent.js
 
     export default CalculatorComponent;
 
+### OUTPUT :
+![Screenshot (408)](https://github.com/JANANI0210/react-calci-form/assets/86832944/a2ef52a6-60e6-47ae-8731-e315ec73ba9a)
+![Screenshot (409)](https://github.com/JANANI0210/react-calci-form/assets/86832944/692a0122-1141-4dfb-91b2-7d6acc1448b9)
+![Screenshot (410)](https://github.com/JANANI0210/react-calci-form/assets/86832944/ef0848e5-411d-49cb-b719-150a8edb4c5e)
+
+
+### RESULT :
+       Thus, to create a react application with three pages portfolio, calculator and API displaying characters is created and executed successfully.
